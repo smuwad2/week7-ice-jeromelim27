@@ -1,7 +1,9 @@
 <script setup>
-    import ViewPosts from './ViewPosts.vue';
+    import axios from 'axios';
+import ViewPosts from './ViewPosts.vue';
 </script>
 
 <template>
-    <ViewPosts />
+    <ViewPosts/>
+
 </template>
